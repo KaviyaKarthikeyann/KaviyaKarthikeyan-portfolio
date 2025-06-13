@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaviya Karthikeyan - Portfolio</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+            color: #374151; /* Dark gray text */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e0e0e0;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #9ca3af;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6b7280;
+        }
+    </style>
+</head>
+<body class="leading-relaxed">
+
+    <!-- Header Section -->
+    <header class="bg-indigo-700 text-white py-8 shadow-lg">
+        <div class="container flex flex-col md:flex-row items-center justify-between">
+            <div class="text-center md:text-left mb-4 md:mb-0">
+                <h1 class="text-4xl font-bold rounded-lg px-2 py-1 inline-block bg-indigo-600">Kaviya Karthikeyan</h1>
+                <p class="text-xl mt-2">Graduate Student in Business Analytics & Data Analyst</p>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-indigo-200 transition-colors duration-300">About</a></li>
+                    <li><a href="#projects" class="hover:text-indigo-200 transition-colors duration-300">Projects</a></li>
+                    <li><a href="#skills" class="hover:text-indigo-200 transition-colors duration-300">Skills</a></li>
+                    <li><a href="#contact" class="hover:text-indigo-200 transition-colors duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container py-12">
+
+        <!-- About Me Section -->
+        <section id="about" class="bg-white p-8 rounded-xl shadow-md mb-12">
+            <h2 class="text-3xl font-semibold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center md:items-start">
+                <!-- To display your image, first create a folder named 'assets' in your GitHub repository, -->
+                <!-- then inside 'assets', create another folder named 'images'. Upload your 'kk.jpg' file into this 'images' folder. -->
+                <img src="assets/images/kk.jpg" alt="Kaviya Karthikeyan's Professional Photo" class="w-32 h-32 rounded-full object-cover mr-0 md:mr-8 mb-6 md:mb-0 border-4 border-indigo-300 shadow-lg">
+                <div>
+                    <p class="text-lg mb-4">
+                        Hello! I'm <strong class="text-indigo-700">Kaviya Karthikeyan</strong>, a graduate student in Business Analytics with a strong passion for Business Analytics, Supply Chain Analytics, and Data Analytics.
+                    </p>
+                    <p class="text-lg">
+                        I am experienced in Data Analytics and Web development, proficient in Tableau, Power BI, MS Excel, and various Data visualization tools to provide scalable and optimized solutions. I'm constantly eager to learn and apply new techniques to solve complex business problems.
+                    </p>
+                    <div class="mt-6 flex flex-wrap gap-4">
+                        <a href="https://github.com/KaviyaKarthikeyan" target="_blank" class="bg-gray-800 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded-lg flex items-center transition duration-300 shadow-md">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10c0 4.419 2.865 8.163 6.839 9.48.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.604-3.369-1.34-3.369-1.34-.455-1.157-1.111-1.464-1.111-1.464-.907-.618.069-.606.069-.606 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.089 2.91.832.091-.645.35-1.089.636-1.336-2.22-.253-4.555-1.11-4.555-4.946 0-1.091.39-1.984 1.029-2.684-.103-.253-.446-1.27.098-2.65 0 0 .84-.27 2.75 1.025.798-.222 1.649-.333 2.5-.337.85.004 1.702.115 2.5.337 1.909-1.295 2.747-1.025 2.747-1.025.546 1.38.202 2.398.099 2.65.64.7 1.028 1.593 1.028 2.684 0 3.846-2.339 4.681-4.566 4.935.359.308.678.92.678 1.855 0 1.336-.012 2.415-.012 2.74 0 .268.18.577.688.48C17.135 18.16 20 14.417 20 10c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /></svg>
+                            GitHub
+                        </a>
+                        <a href="https://linkedin.com/in/KaviyaKarthikeyan" target="_blank" class="bg-blue-700 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg flex items-center transition duration-300 shadow-md">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M16.326 3.036c.225-.225.225-.59 0-.816l-.271-.27c-.225-.225-.59-.225-.816 0l-1.365 1.365c-.225.225-.225.59 0 .816l.271.271c.225.225.59.225.816 0l1.365-1.365zM17.5 10a7.5 7.5 0 11-15 0 7.5 7.5 0 0115 0zm-2.007-1.879l-4.75-4.75a.75.75 0 00-1.06 1.06l4.75 4.75a.75.75 0 001.06-1.06zM9.5 8.75a.75.75 0 010-1.5h1.5a.75.75 0 010 1.5h-1.5zm-3.25 0a.75.75 0 010-1.5h1.5a.75.75 0 010 1.5h-1.5zm6.5 0a.75.75 0 010-1.5h1.5a.75.75 0 010 1.5h-1.5z"/></svg>
+                            LinkedIn
+                        </a>
+                        <a href="mailto:kaviyakarthikeyan@gmail.com" class="bg-red-600 hover:bg-red-500 text-white font-semibold py-2 px-4 rounded-lg flex items-center transition duration-300 shadow-md">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg>
+                            Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-white p-8 rounded-xl shadow-md mb-12">
+            <h2 class="text-3xl font-semibold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Project Card 1: Predictive Modelling of User Compatibility on Veggie Mingle -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Predictive Modelling of User Compatibility on Veggie Mingle</h3>
+                    <p class="text-gray-600 mb-4">
+                        Applied advanced data mining techniques (Random Forest, XGBoost) on a 5000-observation dataset to classify user compatibility on "Veggie Mingle." Improved prediction accuracy to 65.65% by addressing class imbalance and identifying critical features like profile completeness and response rate.
+                    </p>
+                    <img src="https://placehold.co/400x250/E0E7FF/4338CA?text=Veggie+Mingle+Project" alt="Veggie Mingle Project" class="w-full h-auto rounded-md mb-4 object-cover">
+                    <div class="flex flex-wrap gap-2 text-sm mb-4">
+                        <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full">Data Mining</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full">Random Forest</span>
+                        <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full">XGBoost</span>
+                    </div>
+                    <div class="flex justify-end gap-3">
+                        <a href="https://github.com/KaviyaKarthikeyan/VeggieMinglePrediction" target="_blank" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                            Code
+                        </a>
+                        <a href="#" class="bg-gray-400 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                            Live Demo (N/A)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: How Data Is Reshaping Retail and Real Estate -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">How Data Is Reshaping Retail and Real Estate</h3>
+                    <p class="text-gray-600 mb-4">
+                        Presented an in-depth analysis on the application of data-driven analytics in retail and real estate, detailing the utilization of computer vision, crowd analysis, and sensor networks for operational optimization. Articulated how insights derived from behavioural tracking and demographic/location analytics drive enhanced inventory management, optimized space utilization and targeted marketing strategies.
+                    </p>
+                    <img src="https://placehold.co/400x250/C7D2FE/4338CA?text=Retail+Real+Estate" alt="Retail & Real Estate Project" class="w-full h-auto rounded-md mb-4 object-cover">
+                    <div class="flex flex-wrap gap-2 text-sm mb-4">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Data Analytics</span>
+                        <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full">Computer Vision</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full">Sensor Networks</span>
+                    </div>
+                    <div class="flex justify-end gap-3">
+                        <a href="https://github.com/KaviyaKarthikeyan/RetailRealEstateAnalytics" target="_blank" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                            Code
+                        </a>
+                        <a href="#" class="bg-gray-400 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                            Live Demo (N/A)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: Inventory and Demand Optimization via Data Analytics -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Inventory and Demand Optimization via Data Analytics</h3>
+                    <p class="text-gray-600 mb-4">
+                        Optimized inventory holding and ordering costs by implementing and analysing Economic Order Quantity (EOQ) models, including sensitivity and discount scenario assessments. Categorized product inventory using ABC and XYZ segmentation to streamline management and improve resource allocation. Segmented customer base through RFM and cluster analysis to identify valuable customer groups and tailor strategies.
+                    </p>
+                    <img src="https://placehold.co/400x250/A5B6F6/4338CA?text=Inventory+Optimization" alt="Inventory Optimization Project" class="w-full h-auto rounded-md mb-4 object-cover">
+                    <div class="flex flex-wrap gap-2 text-sm mb-4">
+                        <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full">Data Analytics</span>
+                        <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full">EOQ Models</span>
+                        <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full">Segmentation</span>
+                    </div>
+                    <div class="flex justify-end gap-3">
+                        <a href="https://github.com/KaviyaKarthikeyan/InventoryDemandOptimization" target="_blank" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                            Code
+                        </a>
+                        <a href="#" class="bg-gray-400 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                            Live Demo (N/A)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4: Global YouTube Monetization and Engagement Analysis -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">Global YouTube Monetization and Engagement Analysis</h3>
+                    <p class="text-gray-600 mb-4">
+                        Developed an interactive Tableau dashboard analyzing global YouTube channel performance using multi-source datasets. Designed and implemented data visualizations across dashboards including metrics like earnings per subscriber, engagement by category, content influence and monetization patterns. Applied calculated fields, parameter controls and channel segmentation to derive actionable insights.
+                    </p>
+                    <img src="https://placehold.co/400x250/BED1FB/4338CA?text=YouTube+Analysis" alt="YouTube Analysis Project" class="w-full h-auto rounded-md mb-4 object-cover">
+                    <div class="flex flex-wrap gap-2 text-sm mb-4">
+                        <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full">Tableau</span>
+                        <span class="bg-lime-100 text-lime-800 px-3 py-1 rounded-full">Data Visualization</span>
+                        <span class="bg-fuchsia-100 text-fuchsia-800 px-3 py-1 rounded-full">Analytics</span>
+                    </div>
+                    <div class="flex justify-end gap-3">
+                        <a href="https://github.com/KaviyaKarthikeyan/YouTubeAnalyticsDashboard" target="_blank" class="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                            Code
+                        </a>
+                        <a href="#" class="bg-gray-400 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                            Live Demo (N/A)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-white p-8 rounded-xl shadow-md mb-12">
+            <h2 class="text-3xl font-semibold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">Skills</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+                <!-- Data & Analytics -->
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/38B2AC/ffffff?text=BI" alt="Business Intelligence" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Business Analytics</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/10B981/ffffff?text=DA" alt="Data Analytics" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Data Analytics</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/6366F1/ffffff?text=Py" alt="Python" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Python</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/F59E0B/ffffff?text=R" alt="R Programming" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">R Programming</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/EF4444/ffffff?text=SQL" alt="SQL" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">SQL</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/3B82F6/ffffff?text=Tab" alt="Tableau" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Tableau</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/8B5CF6/ffffff?text=PBI" alt="Power BI" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Power BI</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/F97316/ffffff?text=Excel" alt="MS Excel" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">MS Excel</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/06B6D4/ffffff?text=DV" alt="Data Visualization" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Data Visualization</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/EC4899/ffffff?text=DM" alt="Data Mining" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Data Mining</p>
+                </div>
+                 <!-- Web Development -->
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/6875F5/ffffff?text=React" alt="React.js" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">React.js</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/10B981/ffffff?text=Node" alt="Node.js" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Node.js</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/9CA3AF/ffffff?text=MySQL" alt="MySQL" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">MySQL</p>
+                </div>
+                 <!-- Other Skills -->
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/4F46E5/ffffff?text=Git" alt="Git/GitHub" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Git/GitHub</p>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <img src="https://placehold.co/60x60/22C55E/ffffff?text=Cloud" alt="Cloud Computing" class="w-16 h-16 mb-2 rounded-full object-cover">
+                    <p class="font-medium text-gray-700">Cloud Computing</p>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white p-8 rounded-xl shadow-md">
+            <h2 class="text-3xl font-semibold mb-6 text-indigo-700 border-b-2 border-indigo-200 pb-2">Contact</h2>
+            <p class="text-lg mb-4">
+                I'm always open to new opportunities and collaborations. Feel free to reach out!
+            </p>
+            <form class="space-y-4">
+                <div>
+                    <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-300" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-300" required>
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message here..." class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-300" required></textarea>
+                </div>
+                <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-6 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 shadow-md">
+                    Send Message
+                </button>
+            </form>
+            <p class="mt-6 text-center text-gray-600 text-sm">
+                Alternatively, you can reach me directly at <a href="mailto:kaviyakarthikeyan@gmail.com" class="text-indigo-600 hover:underline">kaviyakarthikeyan@gmail.com</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-indigo-700 text-white py-6 text-center mt-12 shadow-inner">
+        <p>&copy; 2025 Kaviya Karthikeyan. All rights reserved.</p>
+        <p class="text-sm mt-2">Built with ❤️ and Tailwind CSS</p>
+    </footer>
+
+</body>
+</html>
